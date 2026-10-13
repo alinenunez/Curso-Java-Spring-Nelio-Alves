@@ -28,3 +28,4 @@ Os projetos deste repositório foram construídos utilizando as seguintes tecnol
     *   Padrão DTO (Data Transfer Object).
     *   Tratamento de exceções e validações.
     *   Consultas customizadas com JPQL.
+*   **`desafio02` (Modelo de domínio e ORM):** O objetivo principal deste projeto é implementar um modelo de domínio baseado num sistema de gestão de eventos, configurando as respectivas tabelas e relações na base de dados utilizando o ecossistema Spring (JPA e Hibernate).
