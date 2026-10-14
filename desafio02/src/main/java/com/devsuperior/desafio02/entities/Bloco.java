@@ -1,10 +1,8 @@
 package com.devsuperior.desafio02.entities;
 
 import jakarta.persistence.*;
-
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.List;
+
 
 @Entity
 @Table(name="tb_bloco")
@@ -13,8 +11,9 @@ public class Bloco {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
     private Instant inicio;
-
+    @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
     private Instant fim;
 
     public Bloco(){}
@@ -37,19 +36,19 @@ public class Bloco {
         this.id = id;
     }
 
-    public LocalDate getInicio() {
+    public Instant getInicio() {
         return inicio;
     }
 
-    public void setInicio(LocalDate inicio) {
+    public void setInicio(Instant inicio) {
         this.inicio = inicio;
     }
 
-    public LocalDate getFim() {
+    public Instant getFim() {
         return fim;
     }
 
-    public void setFim(LocalDate fim) {
+    public void setFim(Instant fim) {
         this.fim = fim;
     }
 
