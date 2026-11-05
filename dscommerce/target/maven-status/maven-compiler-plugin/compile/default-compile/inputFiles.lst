@@ -1,0 +1,17 @@
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\repositories\ProductRepository.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\DscommerceApplication.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\dto\CustomError.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\entities\OrderItemPK.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\services\exceptions\ResourceNotFoundException.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\entities\Payment.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\controllers\handlers\ControllerExceptionHandler.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\dto\ProductDTO.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\entities\User.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\entities\Order.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\services\ProductService.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\entities\OrderStatus.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\entities\Category.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\services\exceptions\DatabaseException.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\controllers\ProductController.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\entities\Product.java
+C:\cursoNelio\dscommerce\src\main\java\com\devsuperior\dscommerce\entities\OrderItem.java
