@@ -4,7 +4,6 @@ Este repositório contém os projetos, exercícios e anotações desenvolvidos d
 
 O objetivo deste repositório é documentar a evolução na criação de APIs RESTful profissionais, modelagem de dados complexa e boas práticas de arquitetura utilizando o ecossistema Spring.
 
----
 
 ## 💻 Tecnologias e Ferramentas
 
@@ -17,7 +16,6 @@ Os projetos deste repositório foram construídos utilizando as seguintes tecnol
 *   **ORM:** Hibernate / JPA
 *   **IDE Recomendada:** IntelliJ IDEA
 
----
 
 ## 📂 Estrutura de Projetos
 
@@ -29,3 +27,8 @@ Os projetos deste repositório foram construídos utilizando as seguintes tecnol
     *   Tratamento de exceções e validações.
     *   Consultas customizadas com JPQL.
 *   **`desafio02` (Modelo de domínio e ORM):** O objetivo principal deste projeto é implementar um modelo de domínio baseado num sistema de gestão de eventos, configurando as respectivas tabelas e relações na base de dados utilizando o ecossistema Spring (JPA e Hibernate).
+*   **`desafio03` (API REST, camadas, CRUD, exceções e validações):** Construção de uma API RESTful completa focada na gestão de clientes, aplicando rigorosamente a arquitetura em camadas (`ClienteController`, `ClienteService`, `ClienteRepository`). Aborda:
+    *   Implementação das operações de CRUD (Criar, Ler, Atualizar, Deletar) para a entidade `Cliente` isoladas pelo padrão `ClienteDTO`.
+    *   Tratamento global e estruturado de exceções através de um `ControllerExceptionHandler`.
+    *   Manipulação de exceções específicas como `ResourceNotFoundException` e `DatabaseException`.
+    *   Respostas de erro ricas e formatadas utilizando classes auxiliares de validação (`CustomError`, `FieldMessage`, `ValidationError`) para guiar os consumidores da API.
